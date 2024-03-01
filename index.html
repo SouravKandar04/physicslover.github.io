@@ -5,23 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Easy</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
 </head>
-
+ 
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-             <div class="logo"><img src="bg.jpg" alt="logo"></div>
+    
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+             <div class="logo"><img src="logo.jpg.png" alt="logo"></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#articles">Articles</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
-        <div class="rightnav"></div>
+       
+        <div class="rightNav v-class-resp"> 
+        <input type="text" name="Search" id="Search">
+        <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
     </nav>
-     <section class="background firstSection">
-        <div class="box-main"></div>
+     <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="fistHalf">
+                <p class="text-big">The Future of Education is here.</p>
+                <p class="text-small">Don't waste your time, just dive into this World of Education.</p>
+                <div class="buttons">
+                    <button class="btn">Follow Us</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="New logo.png" alt="The future">
+            </div>
+        </div>
+    </section>
+   
+    <section class="section" id="articles">
+       <div class="paras">
+       <p class="sectionTag text-big">Netaji Subhas Chandra Bose:</p>
+       <p class="sectionSubTag text-small">Netaji Subhas Chandra Bose was a fearless freedom fighter and a key figure in India’s struggle for independence from British colonial rule. Born on January 23, 1897, in Cuttack, Odisha, he was a brilliant student and later joined the Indian Civil Services. However, his passion for India’s freedom led him to resign from the civil services and actively participate in the fight against British rule.</p>
+   </div>
+       <div class="thumbnail">
+           <img src="Netaji1.jpg" alt="Image" class="imgFluid">
+       </div>
+    </section>
      </section>
-
+     <section class=" section section-Left">
+        <div class="paras">
+        <p class="sectionTag text-big">Azad Hind Fauj (Indian National Army):</p>
+        <p class="sectionSubTag text-small">Netaji formed the Indian National Army (INA) in 1942 with the aim of liberating India from British rule. The INA, also known as the Azad Hind Fauj, consisted of Indian soldiers who had been prisoners of war in Southeast Asia.Under Netaji’s leadership, the INA fought alongside the Japanese forces against the British in Burma (now Myanmar) during World War II</p>
+    </div>
+        <div class="thumbnail">
+            <img src="Netaji2.jpg" alt="Image" class="imgFluid">
+        </div>
+     </section>
+    </section>
+    <section class="section">
+       <div class="paras">
+       <p class="sectionTag text-big">Escape to Germany and Japan:</p>
+       <p class="sectionSubTag text-small">To avoid arrest by the British authorities, Netaji escaped from India in 1941 and traveled to Germany and later to Japan.In Germany, he sought support for India’s independence and established contacts with Nazi officials.In Japan, he collaborated with the Japanese government to form the INA.</p>
+   </div>
+       <div class="thumbnail">
+           <img src="Netaji3.jpg" alt="Image" class="imgFluid">
+       </div>
+    </section>
+</section>
+<section class="section section-Left">
+   <div class="paras">
+   <p class="sectionTag text-big">Mysterious Disappearance:</p>
+   <p class="sectionSubTag text-small">Netaji’s fate remains a subject of debate and mystery. In 1945, he reportedly died in a plane crash in Taiwan (then Formosa).However, some theories suggest that he survived and lived incognito in various parts of the world.</p>
+</div>
+   <div class="thumbnail">
+       <img src="Netaji4.jpg" alt="Image" class="imgFluid">
+   </div>
+</section>
+  
+  <section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+        <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+        <input class="form-input" type="email" name="name" id="email" placeholder="Enter Your email">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+        <button class="btn btn-sm btn-dark">Submit</button>
+    </div>
+  </section>
+  <footer class="background" id="about">
+    <p class="text-footer">
+    Copyright &copy; 2024 - All rights reserved to Mr. Sourav Kandar
+</p>
+  </footer>
+  <script src="script.js"></script> 
 </body>
 
 </html>
